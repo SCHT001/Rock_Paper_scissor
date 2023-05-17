@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main
+{
+    background:linear-gradient(45deg,rgb(245, 91, 19),rgb(185, 70, 238));
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 0.2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+.display
+{
+    display: flex;
+}
+.computer{
+    border: 0.2px solid black;
+    height: 10em;
+    width: 10em;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap:3em;
+}
+.btn{
+    background-color: blueviolet;
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    cursor: pointer;
+}
+#resultBox{
+    border: 0.1px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-top: 20px;
+    background: linear-gradient(45deg,rgb(31, 168, 231),rgb(153, 0, 255));
+}
