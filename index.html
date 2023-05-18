@@ -9,18 +9,25 @@
 </head>
 <body>
     <div class="main">
+        
         <span class="title">Rock Paper Scissor</span>
         <div class="submain">
             <div class="container">
-                <p class="topic"> Computer choice: <span> Your choice: </span></p> 
+                <div id="roundCount">Round 1</div> <hr> <br>
+                
+                
+                <p class="topic"> Computer choice: </p>  
                <div class="display">
                    <div class="computer">
                        <img id="cmptr1" src="image/white.png" alt="cmptrchoice" height="120em">
                    </div>
+                   
                    <div class="computer">
                        <img src="image/white.png" alt="userChoice" id="cmptr2" height="120em">
                    </div>
+                   
                </div>
+               <p>Your Choice: </p>
                <div class="buttons">
                    <button class="btn" id="Rbtn">
                        Rock
@@ -36,7 +43,15 @@
                    
                </div>
            </div>
+           
+           <div class="countBox">
+            <button id="reset">Reset</button> <hr>
+            <div id="cmptrWins"> Computer wins: 0</div> <hr>
+            <div id="userWins"> Your wins: 0</div> <hr>
+            <div id="draw"> Draws: 0</div> <hr>
+    </div>
         </div>
+        
     </div>
 </body>
 <script src="script.js"></script>
